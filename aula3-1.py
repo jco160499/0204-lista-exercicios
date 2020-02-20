@@ -5,8 +5,7 @@ def dias_de_vida(ano,mes,dia):
     return idade_dias
 
 print(dias_de_vida(1999,4,16))
-idade = 7615/365
 dias = str(dias_de_vida(1999,4,16)).replace(' days, 0:00:00','')
-idade2 = round(float(dias)/365,1)
-print('Você tem:    ',idade2, ' anos')
+idade = round(float(dias)/365,1)
+print('Você tem:    ',idade, ' anos')
 
